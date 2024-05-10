@@ -2,6 +2,8 @@
 
 This repo was created as part of the blog - "Best practices for managing Terraform State files in AWS CI/CD Pipeline" 
 
+https://aws.amazon.com/blogs/devops/best-practices-for-managing-terraform-state-files-in-aws-ci-cd-pipeline/
+
 ## Best Practices for handling state files
 
 The recommended practice for managing state files is to use terraform’s built-in support for remote backends.
