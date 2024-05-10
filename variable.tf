@@ -1,11 +1,11 @@
 variable "aws_region" {
   type    = string
-  default = "us-east-2
+  default = "us-east-2"
 }
 
 variable "codecommit_repository_url" {
   type    = string
-  default = "https://git-codecommit.eu-central-1.amazonaws.com/v1/repos/codebuild-terraform"
+  default = "https://git-codecommit.us-east-2.amazonaws.com/v1/repos/codebuild-terraform"
 }
 
 variable "s3_bucket_name" {
